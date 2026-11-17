@@ -1,0 +1,54 @@
+{
+  "name": "@mambalabsdev/mcp-wayback-machine-snapshots",
+  "version": "1.0.0",
+  "description": "MCP server for Wayback Machine Snapshots: capture history, changes, and archived page text for any URL or domain.",
+  "type": "module",
+  "bin": {
+    "mcp-wayback-machine-snapshots": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "wayback-machine",
+    "internet-archive",
+    "web-archive",
+    "snapshots",
+    "website-history",
+    "cdx",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/wayback-machine-snapshots",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-wayback-machine-snapshots"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-wayback-machine-snapshots"
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-wayback-machine-snapshots": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-wayback-machine-snapshots"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

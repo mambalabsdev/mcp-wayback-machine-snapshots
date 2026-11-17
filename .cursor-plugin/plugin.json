@@ -1,0 +1,39 @@
+{
+  "name": "mcp-wayback-machine-snapshots",
+  "displayName": "Wayback Machine Snapshots",
+  "version": "1.0.0",
+  "description": "MCP server for Wayback Machine Snapshots: capture history, changes, and archived page text for any URL or domain.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-wayback-machine-snapshots",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "wayback-machine",
+    "internet-archive",
+    "web-archive",
+    "snapshots",
+    "website-history",
+    "cdx",
+    "scraper",
+    "apify",
+    "mcp"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "wayback-machine",
+    "internet-archive",
+    "web-archive",
+    "snapshots",
+    "website-history",
+    "cdx",
+    "scraper",
+    "apify",
+    "mcp"
+  ],
+  "mcpServers": ".mcp.json"
+}
