@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-wayback-machine-snapshots",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for Wayback Machine Snapshots: capture history, changes, and archived page text for any URL or domain.",
   "author": {
     "name": "Mamba Labs"

@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-wayback-machine-snapshots",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for Wayback Machine Snapshots: capture history, changes, and archived page text for any URL or domain.",
   "type": "module",
   "bin": {
